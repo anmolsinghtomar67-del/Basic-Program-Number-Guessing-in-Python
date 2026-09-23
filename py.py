@@ -24,4 +24,5 @@ def number_guessing_game():
             print("Please enter a valid number.")
             print("If you want to exit the game, type 'exit'.")
             print("Let's try again.")
+            number_guessing_game()
             
